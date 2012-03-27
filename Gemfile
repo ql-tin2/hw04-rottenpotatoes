@@ -7,6 +7,8 @@ gem 'rails', '3.1.0'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
+  #for assignment 04
+  gem 'rspec-rails'
   #first two lines are added by me
   gem 'linecache19', :git => 'git://github.com/mark-moseley/linecache'
   gem 'ruby-debug-base19x', '~> 0.11.30.pre4'
